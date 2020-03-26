@@ -10,6 +10,7 @@ def prime?(n)
     elsif n == i
       puts "IT IS A PRIME"
     end
+    i = i + 1
   end
   
 end 
