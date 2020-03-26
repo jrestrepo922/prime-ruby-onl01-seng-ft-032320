@@ -7,10 +7,11 @@ def prime?(n)
     if n % i == 0
       puts "Not a prime"
       break
-    elsif n == i
-      puts "IT IS A PRIME"
     end
   i = i + 1
+  end
+  if n == i
+    puts "IT IS A PRIME"
   end
   
 end 
